@@ -1,0 +1,29 @@
+[debug] [2017-07-24T10:45:27.540Z] ----------------------------------------------------------------------
+[debug] [2017-07-24T10:45:27.543Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2017-07-24T10:45:27.544Z] CLI Version:  3.9.1
+[debug] [2017-07-24T10:45:27.544Z] Platform:     win32
+[debug] [2017-07-24T10:45:27.544Z] Node Version: v6.11.1
+[debug] [2017-07-24T10:45:27.544Z] Time:         Mon Jul 24 2017 16:15:27 GMT+0530 (India Standard Time)
+[debug] [2017-07-24T10:45:27.545Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-24T10:45:27.561Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-24T10:45:27.562Z] > authorizing via signed-in user
+[debug] [2017-07-24T10:45:27.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/shout-my-ad  
+ Mon Jul 24 2017 16:15:27 GMT+0530 (India Standard Time)
+[debug] [2017-07-24T10:45:29.417Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-24T10:45:29.418Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/shout-my-ad/tokens  
+ Mon Jul 24 2017 16:15:29 GMT+0530 (India Standard Time)
+[debug] [2017-07-24T10:45:30.581Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\projects\extra\SampleFunctions'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-07-24T10:45:31.448Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/shout-my-ad  
+ Mon Jul 24 2017 16:15:31 GMT+0530 (India Standard Time)
+[debug] [2017-07-24T10:45:31.449Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/shout-my-ad/apiKeys  
+ Mon Jul 24 2017 16:15:31 GMT+0530 (India Standard Time)
+[debug] [2017-07-24T10:45:33.011Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-24T10:45:33.143Z] <<< HTTP RESPONSE 200
+[info] +  functions: addData: http://localhost:5002/shout-my-ad/us-central1/addData
+[info] +  functions: sendMail: http://localhost:5002/shout-my-ad/us-central1/sendMail
+[info] +  functions: storeInfo: http://localhost:5002/shout-my-ad/us-central1/storeInfo
